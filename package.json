@@ -1,0 +1,16 @@
+{
+  "name": "cybershield-grid",
+  "version": "1.0.0",
+  "description": "Real-time cyberattack visualization dashboard",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "nodemailer": "^8.0.5"
+  }
+}
